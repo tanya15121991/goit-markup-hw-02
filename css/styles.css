@@ -1,0 +1,228 @@
+:root {
+    --main-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif
+    --primary-font-weight: 700;
+    --secondary-font-weight: 400;
+    --primary-font-size: 14px;
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --accent-color: #2196f3;
+    --other-color: #ffffff;
+    --logo-color: #000000;
+    --primary-background-color: #2f303a;
+    --secondary-background-color: #f5f4fa;
+}
+.link {
+    text-decoration: none;
+}
+.link {text-decoration: none;}
+.list {list-style: none;}
+img {display: block;}
+.visually-hidden {position: absolute; 
+white-space: nowrap;
+width: 1px; 
+height: 1px; 
+overflow: hidden;
+border: 0; 
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--primary-font-size);
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    background-color: var(--other-color);
+}
+.logo {
+    color: var(--logo-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 00.03em;
+}
+.logo-web {
+    color: var(--accent-color);
+}
+.menu-list .link {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
+}
+.menu-list .link.current {
+    color: var(--accent-color);
+}
+.menu-link:hover,
+.menu-link:focus {color: var(--accent-color);}
+.contacts-list {
+    font-weight: 500;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
+}
+.header-contacts-email,
+.header-contacts-number {
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+.header-contacts-email:hover,
+.header-contacts-email:focus {
+    color: var(--accent-color);
+}
+.header-contacts-number:hover,
+.header-contacts-number:focus {
+    color: var(--accent-color);
+}
+.baner {
+    background-color: var(--primary-background-color);
+    color: var(--other-color);
+}
+.baner-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.baner-modal-button {
+    font-family: var(--main-font);
+    background-color: var(--accent-color);
+    color: var(--other-color);
+    cursor: pointer;
+    font-weight: var(--primary-font-weight);
+    font-size: 16px;
+    line-height: 1.875em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+.baner-modal-button:hover,
+.baner-modal-button:focus {
+    background-color: #188ce8;
+    color: var(--other-color);
+}
+.benefits-caption {
+    font-style: normal;
+    font-weight: var(--primary-font-weight);
+    font-size: 36px;
+    line-height: 1.16em;
+    text-align: center;
+}
+.benefits-list {
+    font-weight: var(--primary-font-weight);
+    line-height: 1.14em;
+}
+.benefits-subtitle {
+    font-weight: var(--primary-font-weight);
+    font-size: 14px;
+    line-height: 1.14em;
+    text-transform: uppercase;
+}
+.benefits-text {
+    color: var(--secondary-color);
+    font-weight: var(--secondary-font-weight);
+    line-height: 1.7em;
+}
+.about-caption {
+    font-weight: var(--primary-font-weight);
+    font-size: 36px;
+    line-height: 1.16em;
+    text-align: center;
+}
+.our-team {
+    background-color: var(--secondary-background-color);
+    }
+.our-team-caption {
+    font-weight: var(--primary-font-weight);
+    font-size: 36px;
+    line-height: 1.16em;
+    text-align: center;
+}
+.workers-item {
+    background-color: var(--other-color);
+}
+.workers-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+.workers-position {
+    color: var(--secondary-color);
+    font-weight: var(--secondary-font-weight);
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+.footer {
+    background-color: #2f303a;
+}
+.logo-footer {
+    color: var(--other-color);
+    font-family: var(--secondary-font-family);
+    font-weight: var(--primary-font-weight);
+    font-size: 26px;
+    line-height: 1.19;
+}
+.adress-list {
+    font-style: normal;
+    font-weight: var(--secondary-font-weight);
+    line-height: 1.7;
+}
+.adress-map {
+    color: var(--other-color);
+    font-weight: var(--secondary-font-weight);
+    line-height: 1.7;
+}
+.footer-contacts-email,
+.footer-contacts-number {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: var(--secondary-font-weight);
+    line-height: 1.7;
+}
+.footer-contacts-email:hover,
+.footer-contacts-email:focus {
+    color: var(--accent-color);
+}
+.footer-contacts-number:hover,
+.footer-contacts-number:focus {
+    color: var(--accent-color);
+}
+.services-nav-list {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+.services-nav-button {
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    cursor: pointer;
+}
+.services-nav-button:hover,
+.services-nav-button:focus {
+    background-color: var(--accent-color);
+    color: var(--other-color);
+}
+.services-title {
+    color: var(--main-color);
+    font-weight: var(--primary-font-weight);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.services-section {
+    color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 1.875;
+}
